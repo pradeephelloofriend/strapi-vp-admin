@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/produt-tab-area",
+      "handler": "produt-tab-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/produt-tab-area",
+      "handler": "produt-tab-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/produt-tab-area",
+      "handler": "produt-tab-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

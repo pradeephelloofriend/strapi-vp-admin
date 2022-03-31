@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_search_area_search_buttons",
+  "info": {
+    "name": "searchButton",
+    "icon": "burn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

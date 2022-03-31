@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/notice-area",
+      "handler": "notice-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/notice-area",
+      "handler": "notice-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/notice-area",
+      "handler": "notice-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

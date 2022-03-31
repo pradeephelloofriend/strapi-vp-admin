@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uom_udcs",
+  "info": {
+    "name": "UOM-udc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SY": {
+      "type": "string"
+    },
+    "RT": {
+      "type": "string"
+    },
+    "KY": {
+      "type": "string"
+    },
+    "DESC": {
+      "type": "string"
+    },
+    "SPHD": {
+      "type": "string"
+    }
+  }
+}

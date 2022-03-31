@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_finance_area_fin_details",
+  "info": {
+    "name": "finDetails",
+    "icon": "calendar-week",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "year": {
+      "model": "year-udc"
+    },
+    "uom": {
+      "model": "uom-udc"
+    },
+    "finDetail_group": {
+      "model": "capital-udc"
+    },
+    "finnace_subgroup": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance-area.finnace-subgroup"
+    }
+  }
+}

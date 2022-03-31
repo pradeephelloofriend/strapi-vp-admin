@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scheme_details",
+  "info": {
+    "name": "scheme-details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "schemeName": {
+      "type": "text"
+    },
+    "schemeType": {
+      "model": "udc"
+    },
+    "purpose": {
+      "type": "richtext"
+    },
+    "schmeValidity": {
+      "type": "text"
+    },
+    "schemeLunchDate": {
+      "type": "date"
+    },
+    "schemeExpiryDate": {
+      "type": "date"
+    },
+    "benifits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "scheme-details.benifits"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_details_service_details",
+  "info": {
+    "name": "serviceDetails",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    }
+  }
+}

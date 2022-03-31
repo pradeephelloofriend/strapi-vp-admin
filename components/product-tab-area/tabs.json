@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_product_tab_area_tabs",
+  "info": {
+    "name": "tabs",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "tabCode": {
+      "type": "string"
+    },
+    "udc": {
+      "model": "udc"
+    },
+    "service": {
+      "model": "service"
+    }
+  }
+}

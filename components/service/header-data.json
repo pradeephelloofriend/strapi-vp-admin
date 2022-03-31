@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_header_data",
+  "info": {
+    "name": "headerData",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    }
+  }
+}

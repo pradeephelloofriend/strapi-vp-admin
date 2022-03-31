@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_areas",
+  "info": {
+    "name": "about_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-area.header"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "about-area.shotcut-items"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "add_areas",
+  "info": {
+    "name": "add_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "leftContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "add-area.left-content"
+    },
+    "rightContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "add-area.right-content"
+    }
+  }
+}

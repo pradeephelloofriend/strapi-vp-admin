@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "notice_areas",
+  "info": {
+    "name": "notice_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "notice-area.notice-item"
+      ]
+    }
+  }
+}

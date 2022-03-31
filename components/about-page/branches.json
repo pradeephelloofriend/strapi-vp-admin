@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_about_page_branches",
+  "info": {
+    "name": "branches",
+    "icon": "poll-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "branchName": {
+      "type": "string"
+    },
+    "branchAdress": {
+      "type": "richtext"
+    },
+    "contactNo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.contact-no"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "branchImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "add1": {
+      "type": "text"
+    },
+    "add2": {
+      "type": "text"
+    },
+    "add3": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_scheme_details_benifits",
+  "info": {
+    "name": "benifits",
+    "icon": "bomb"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

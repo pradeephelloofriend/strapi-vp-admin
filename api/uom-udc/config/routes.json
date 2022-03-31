@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uom-udcs",
+      "handler": "uom-udc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uom-udcs/count",
+      "handler": "uom-udc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uom-udcs/:id",
+      "handler": "uom-udc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/uom-udcs",
+      "handler": "uom-udc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uom-udcs/:id",
+      "handler": "uom-udc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uom-udcs/:id",
+      "handler": "uom-udc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

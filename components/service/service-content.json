@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_service_service_contents",
+  "info": {
+    "name": "serviceContent",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "category": {
+      "model": "udc"
+    },
+    "tabData": {
+      "model": "f00-fm"
+    }
+  }
+}

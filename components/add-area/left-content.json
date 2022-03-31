@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_add_area_left_contents",
+  "info": {
+    "name": "leftContent",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

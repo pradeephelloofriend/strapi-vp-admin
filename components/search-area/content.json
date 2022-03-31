@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_search_area_contents",
+  "info": {
+    "name": "content",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "item_value": {
+      "model": "udc"
+    },
+    "itemCat": {
+      "model": "udc"
+    }
+  }
+}

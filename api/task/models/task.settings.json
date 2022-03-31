@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "task"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "taskType": {
+      "type": "string"
+    },
+    "taskName": {
+      "type": "string"
+    },
+    "taskOid": {
+      "type": "string"
+    },
+    "taskLink": {
+      "type": "string"
+    },
+    "taskIcon": {
+      "type": "string"
+    },
+    "taskSubTask": {
+      "type": "boolean"
+    },
+    "taskCode": {
+      "type": "string"
+    },
+    "subtasks": {
+      "via": "task",
+      "collection": "subtask"
+    }
+  }
+}

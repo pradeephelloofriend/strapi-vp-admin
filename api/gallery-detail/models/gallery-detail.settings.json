@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_details",
+  "info": {
+    "name": "galleryDetail",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gdTitle": {
+      "type": "string"
+    },
+    "gdDesc": {
+      "type": "richtext"
+    },
+    "gdTag": {
+      "type": "string"
+    },
+    "gdImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "gdDate": {
+      "type": "date"
+    },
+    "gdImagew": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "gh": {
+      "via": "gd",
+      "model": "gallery-head"
+    },
+    "gdType": {
+      "type": "string"
+    }
+  }
+}

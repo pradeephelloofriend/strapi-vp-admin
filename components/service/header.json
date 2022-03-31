@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_headers",
+  "info": {
+    "name": "header",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "titel": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "des2": {
+      "type": "text"
+    }
+  }
+}

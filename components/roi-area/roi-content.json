@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_roi_area_roi_contents",
+  "info": {
+    "name": "roiContent",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "roiType": {
+      "model": "udc"
+    },
+    "roiList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roi-area.roi-list"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

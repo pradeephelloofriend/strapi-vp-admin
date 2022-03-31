@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "finance_areas",
+  "info": {
+    "name": "finance-area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "finGroup": {
+      "type": "string"
+    },
+    "finIcon": {
+      "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "finance-area.fin-details"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_scheme_area_headers",
+  "info": {
+    "name": "header",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "richtext"
+    }
+  }
+}

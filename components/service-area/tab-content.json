@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_service_area_tab_contents",
+  "info": {
+    "name": "TabContent",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string"
+    },
+    "serviceDesc": {
+      "type": "richtext"
+    },
+    "serviceImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "serviceLink": {
+      "model": "udc"
+    },
+    "serviceIcon": {
+      "type": "string"
+    }
+  }
+}

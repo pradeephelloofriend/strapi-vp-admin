@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_scheme_area_schem_contents",
+  "info": {
+    "name": "schemContent",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "des1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "schemeType": {
+      "model": "udc"
+    },
+    "schemeCode": {
+      "model": "udc"
+    }
+  }
+}

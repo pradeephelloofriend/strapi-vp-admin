@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "produt_tab_areas",
+  "info": {
+    "name": "service_area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-area.header"
+    },
+    "serviceContent": {
+      "type": "dynamiczone",
+      "components": [
+        "service-area.tab-item"
+      ]
+    }
+  }
+}

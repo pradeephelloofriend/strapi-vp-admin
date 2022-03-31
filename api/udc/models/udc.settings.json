@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "udcs",
+  "info": {
+    "name": "udc",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "KY": {
+      "type": "string"
+    },
+    "DL01": {
+      "type": "string"
+    },
+    "DL02": {
+      "type": "text"
+    },
+    "SPHD": {
+      "type": "string"
+    },
+    "UDCO": {
+      "type": "string"
+    },
+    "HRDC": {
+      "type": "string"
+    },
+    "Ref": {
+      "type": "string"
+    },
+    "OID": {
+      "type": "string"
+    },
+    "SY": {
+      "type": "string"
+    },
+    "udcp": {
+      "via": "udcs",
+      "model": "udcp"
+    },
+    "RT": {
+      "type": "string"
+    },
+    "f_00_fms": {
+      "via": "udc",
+      "collection": "f00-fm"
+    },
+    "subtask": {
+      "via": "udc",
+      "model": "subtask"
+    },
+    "services": {
+      "via": "serviceType",
+      "collection": "service"
+    }
+  }
+}

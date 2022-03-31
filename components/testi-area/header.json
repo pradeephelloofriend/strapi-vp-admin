@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_testi_area_headers",
+  "info": {
+    "name": "header",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    }
+  }
+}

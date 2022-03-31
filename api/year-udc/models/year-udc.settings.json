@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "year_udcs",
+  "info": {
+    "name": "year-udc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "year": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "udcps",
+  "info": {
+    "name": "udcp",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DL01": {
+      "type": "string"
+    },
+    "USEQ": {
+      "type": "string"
+    },
+    "UCD1": {
+      "type": "string"
+    },
+    "CDL": {
+      "type": "string"
+    },
+    "DELETED": {
+      "type": "string"
+    },
+    "REF": {
+      "type": "string"
+    },
+    "RT": {
+      "type": "string"
+    },
+    "udcs": {
+      "via": "udcp",
+      "collection": "udc"
+    },
+    "services": {
+      "via": "serviceType",
+      "collection": "service"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "roi_areas",
+  "info": {
+    "name": "roi_area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "roi-area.roi-content"
+      ]
+    }
+  }
+}

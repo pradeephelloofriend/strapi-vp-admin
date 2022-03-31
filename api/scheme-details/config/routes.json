@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/scheme-details",
+      "handler": "scheme-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/scheme-details/count",
+      "handler": "scheme-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/scheme-details/:id",
+      "handler": "scheme-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/scheme-details",
+      "handler": "scheme-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/scheme-details/:id",
+      "handler": "scheme-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/scheme-details/:id",
+      "handler": "scheme-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

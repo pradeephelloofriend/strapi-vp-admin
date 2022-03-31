@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_add_area_right_contents",
+  "info": {
+    "name": "rightContent",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "iconItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "add-area.icon-item"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

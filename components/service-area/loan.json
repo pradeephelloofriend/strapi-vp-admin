@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_service_area_loans",
+  "info": {
+    "name": "loan",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-details.header"
+    },
+    "serviceTitle": {
+      "type": "string"
+    },
+    "serviceDesc": {
+      "type": "richtext"
+    },
+    "serviceLink": {
+      "model": "udc"
+    },
+    "serviceIcon": {
+      "type": "string"
+    },
+    "serviceDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-details.service-details"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

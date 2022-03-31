@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chairmain-profile",
+      "handler": "chairmain-profile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chairmain-profile",
+      "handler": "chairmain-profile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chairmain-profile",
+      "handler": "chairmain-profile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

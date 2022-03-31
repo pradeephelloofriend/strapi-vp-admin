@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_holiday_area_holiday_lists",
+  "info": {
+    "name": "holidayList",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "day": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

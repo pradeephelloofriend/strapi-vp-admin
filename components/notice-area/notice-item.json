@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_notice_area_notice_items",
+  "info": {
+    "name": "noticeItem",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

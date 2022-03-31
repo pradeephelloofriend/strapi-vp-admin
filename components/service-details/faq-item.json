@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_details_faq_items",
+  "info": {
+    "name": "faqItem",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

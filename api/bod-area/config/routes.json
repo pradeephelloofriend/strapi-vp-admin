@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bod-area",
+      "handler": "bod-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bod-area",
+      "handler": "bod-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bod-area",
+      "handler": "bod-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

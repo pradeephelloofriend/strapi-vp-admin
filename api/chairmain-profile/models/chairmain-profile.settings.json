@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "chairmain_profiles",
+  "info": {
+    "name": "chairmain_profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "text"
+    },
+    "chairmainIntro": {
+      "type": "richtext"
+    }
+  }
+}

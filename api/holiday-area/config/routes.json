@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/holiday-area",
+      "handler": "holiday-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/holiday-area",
+      "handler": "holiday-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/holiday-area",
+      "handler": "holiday-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

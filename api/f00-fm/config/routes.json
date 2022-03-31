@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/f-00-fms",
+      "handler": "f00-fm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/f-00-fms/count",
+      "handler": "f00-fm.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/f-00-fms/:id",
+      "handler": "f00-fm.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/f-00-fms",
+      "handler": "f00-fm.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/f-00-fms/:id",
+      "handler": "f00-fm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/f-00-fms/:id",
+      "handler": "f00-fm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

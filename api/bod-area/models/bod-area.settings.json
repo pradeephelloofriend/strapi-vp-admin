@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "bod_areas",
+  "info": {
+    "name": "bod-area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "bod-area.level1"
+      ]
+    }
+  }
+}

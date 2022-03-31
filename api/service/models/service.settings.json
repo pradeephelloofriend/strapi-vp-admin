@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "service",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "serviceType": {
+      "model": "udcp",
+      "via": "services"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "service.service-details"
+      ]
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.header"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "capital_udcs",
+  "info": {
+    "name": "capital-udc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SY": {
+      "type": "string"
+    },
+    "RT": {
+      "type": "string"
+    },
+    "KY": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "string"
+    },
+    "SPHD": {
+      "type": "string"
+    }
+  }
+}

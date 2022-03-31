@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/process-area",
+      "handler": "process-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/process-area",
+      "handler": "process-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/process-area",
+      "handler": "process-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

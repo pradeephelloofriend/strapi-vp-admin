@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_area_tab_items",
+  "info": {
+    "name": "tabItem",
+    "icon": "exchange-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "tabLink": {
+      "model": "udc"
+    },
+    "tabContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-area.tab-content"
+    }
+  }
+}

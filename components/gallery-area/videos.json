@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_gallery_area_videos",
+  "info": {
+    "name": "videos",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

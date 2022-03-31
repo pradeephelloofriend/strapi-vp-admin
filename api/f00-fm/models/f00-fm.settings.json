@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "f00_fms",
+  "info": {
+    "name": "F00FM"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FMDATA": {
+      "type": "string"
+    },
+    "FMOID": {
+      "type": "string"
+    },
+    "FMDESC": {
+      "type": "richtext"
+    },
+    "FMTYPE": {
+      "type": "string"
+    },
+    "FMEFT": {
+      "type": "date"
+    },
+    "FMCEXP": {
+      "type": "date"
+    },
+    "udc": {
+      "model": "udc",
+      "via": "f_00_fms"
+    }
+  }
+}

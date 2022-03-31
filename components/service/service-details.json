@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_service_details",
+  "info": {
+    "name": "service-details-old",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "category": {
+      "model": "udc"
+    },
+    "subContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.sub-content"
+    }
+  }
+}

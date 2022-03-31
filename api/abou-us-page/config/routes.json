@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/abou-us-page",
+      "handler": "abou-us-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/abou-us-page",
+      "handler": "abou-us-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/abou-us-page",
+      "handler": "abou-us-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

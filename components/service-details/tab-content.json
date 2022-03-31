@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_service_details_tab_contents",
+  "info": {
+    "name": "tabContent",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

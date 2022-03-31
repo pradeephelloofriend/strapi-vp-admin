@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "abou_us_pages",
+  "info": {
+    "name": "abou_us_page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "about-page.branches",
+        "about-page.register-office"
+      ]
+    }
+  }
+}

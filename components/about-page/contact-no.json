@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_about_page_contact_nos",
+  "info": {
+    "name": "contactNo",
+    "icon": "retweet"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    }
+  }
+}

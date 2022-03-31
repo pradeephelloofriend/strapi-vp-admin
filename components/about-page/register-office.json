@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_about_page_register_offices",
+  "info": {
+    "name": "registerOffice",
+    "icon": "compact-disc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "add1": {
+      "type": "text"
+    },
+    "add2": {
+      "type": "text"
+    },
+    "add3": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "introLine": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

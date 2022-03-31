@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_testi_area_testi_data",
+  "info": {
+    "name": "testiData",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "richtext"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "desgination": {
+      "type": "string"
+    },
+    "avtar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

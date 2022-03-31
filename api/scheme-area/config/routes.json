@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/scheme-area",
+      "handler": "scheme-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/scheme-area",
+      "handler": "scheme-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/scheme-area",
+      "handler": "scheme-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

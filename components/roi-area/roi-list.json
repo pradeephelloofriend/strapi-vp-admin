@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_roi_area_roi_lists",
+  "info": {
+    "name": "roiList",
+    "icon": "qrcode"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "Interest": {
+      "type": "decimal"
+    },
+    "Additional_Interest": {
+      "type": "decimal"
+    },
+    "Max_Tenure": {
+      "type": "integer"
+    },
+    "Processing_fee": {
+      "type": "text"
+    }
+  }
+}

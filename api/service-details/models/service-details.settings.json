@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_details",
+  "info": {
+    "name": "serviceDetails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "service-details.tab-item"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "serviceLink": {
+      "model": "udc"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-details.faqs"
+    }
+  }
+}

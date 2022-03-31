@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/finance-areas",
+      "handler": "finance-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finance-areas/count",
+      "handler": "finance-area.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finance-areas/:id",
+      "handler": "finance-area.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/finance-areas",
+      "handler": "finance-area.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/finance-areas/:id",
+      "handler": "finance-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/finance-areas/:id",
+      "handler": "finance-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

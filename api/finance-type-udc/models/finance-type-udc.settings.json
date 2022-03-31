@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "finance_type_udcs",
+  "info": {
+    "name": "financeType_udc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "KY": {
+      "type": "string"
+    },
+    "DESC": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_bod_area_level1s",
+  "info": {
+    "name": "postion",
+    "icon": "basketball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desgination": {
+      "type": "string"
+    },
+    "fbLink": {
+      "type": "string"
+    },
+    "twitLink": {
+      "type": "string"
+    },
+    "instaLink": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "levle": {
+      "model": "udc"
+    }
+  }
+}

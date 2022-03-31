@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "holiday_areas",
+  "info": {
+    "name": "holiday_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "holiday-area.holiday-list"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/slider-area",
+      "handler": "slider-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/slider-area",
+      "handler": "slider-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/slider-area",
+      "handler": "slider-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

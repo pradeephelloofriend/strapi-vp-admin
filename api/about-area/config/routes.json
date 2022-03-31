@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-area",
+      "handler": "about-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-area",
+      "handler": "about-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-area",
+      "handler": "about-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

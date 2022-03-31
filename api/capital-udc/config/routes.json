@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/capital-udcs",
+      "handler": "capital-udc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/capital-udcs/count",
+      "handler": "capital-udc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/capital-udcs/:id",
+      "handler": "capital-udc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/capital-udcs",
+      "handler": "capital-udc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/capital-udcs/:id",
+      "handler": "capital-udc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/capital-udcs/:id",
+      "handler": "capital-udc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

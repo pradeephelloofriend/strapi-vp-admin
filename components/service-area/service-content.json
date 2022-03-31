@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_service_area_service_contents",
+  "info": {
+    "name": "service-content",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

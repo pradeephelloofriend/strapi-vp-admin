@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/finance-type-udcs",
+      "handler": "finance-type-udc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finance-type-udcs/count",
+      "handler": "finance-type-udc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finance-type-udcs/:id",
+      "handler": "finance-type-udc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/finance-type-udcs",
+      "handler": "finance-type-udc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/finance-type-udcs/:id",
+      "handler": "finance-type-udc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/finance-type-udcs/:id",
+      "handler": "finance-type-udc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

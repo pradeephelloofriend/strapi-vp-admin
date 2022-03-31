@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "slider_areas",
+  "info": {
+    "name": "slider_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider-area.content"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "process_areas",
+  "info": {
+    "name": "process_area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "process-area.content"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "process-area.steps"
+      ]
+    }
+  }
+}

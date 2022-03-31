@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/year-udcs",
+      "handler": "year-udc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/year-udcs/count",
+      "handler": "year-udc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/year-udcs/:id",
+      "handler": "year-udc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/year-udcs",
+      "handler": "year-udc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/year-udcs/:id",
+      "handler": "year-udc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/year-udcs/:id",
+      "handler": "year-udc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

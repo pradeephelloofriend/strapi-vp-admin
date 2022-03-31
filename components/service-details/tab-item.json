@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_service_details_tab_items",
+  "info": {
+    "name": "tabItem",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tabContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-details.tab-content"
+    }
+  }
+}

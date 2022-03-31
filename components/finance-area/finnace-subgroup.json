@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_finance_area_finnace_subgroups",
+  "info": {
+    "name": "finnace_subgroup",
+    "icon": "donate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uom": {
+      "model": "uom-udc"
+    },
+    "title": {
+      "type": "text"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "year": {
+      "model": "year-udc"
+    },
+    "finance_group": {
+      "model": "finance-type-udc"
+    }
+  }
+}

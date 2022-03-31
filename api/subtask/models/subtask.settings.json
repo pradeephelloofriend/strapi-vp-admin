@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subtasks",
+  "info": {
+    "name": "subtask",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "subTaskName": {
+      "type": "string"
+    },
+    "subTaskOid": {
+      "type": "integer"
+    },
+    "subTaskLink": {
+      "type": "string"
+    },
+    "subTaskCategory": {
+      "type": "string"
+    },
+    "task": {
+      "model": "task",
+      "via": "subtasks"
+    },
+    "udc": {
+      "model": "udc",
+      "via": "subtask"
+    }
+  }
+}

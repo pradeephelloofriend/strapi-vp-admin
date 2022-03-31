@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testi-area",
+      "handler": "testi-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testi-area",
+      "handler": "testi-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testi-area",
+      "handler": "testi-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

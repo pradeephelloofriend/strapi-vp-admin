@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_heads",
+  "info": {
+    "name": "galleryHead",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gCategoryTitle": {
+      "type": "string"
+    },
+    "gCategoryCode": {
+      "type": "string"
+    },
+    "gd": {
+      "via": "gh",
+      "collection": "gallery-detail"
+    }
+  }
+}

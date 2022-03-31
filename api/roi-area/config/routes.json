@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/roi-area",
+      "handler": "roi-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/roi-area",
+      "handler": "roi-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/roi-area",
+      "handler": "roi-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
